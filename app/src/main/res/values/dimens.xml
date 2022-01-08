@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="gallery_row_margin">10dp</dimen>
+    <dimen name="image_margin">20dp</dimen>
+    <dimen name="image_height_portrait">100dp</dimen>
+    <dimen name="margin_image_fragment">30dp</dimen>
+    <dimen name="margin_10_dp">10dp</dimen>
+
+</resources>

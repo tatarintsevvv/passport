@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestForPassport</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="gallery_fragment_label">Галерея</string>
+    <string name="image_fragment_label">Изображение</string>
+    <string name="next">Next</string>
+    <string name="previous">Назад</string>
+
+    <string name="internet_failure_error">Ошибка соединения с сервером</string>
+</resources>

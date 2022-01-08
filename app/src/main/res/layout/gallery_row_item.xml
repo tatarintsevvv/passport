@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/row_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="@dimen/gallery_row_margin"
+        android:layout_marginEnd="@dimen/gallery_row_margin"
+        android:layout_marginTop="@dimen/gallery_row_margin"
+        android:layout_marginBottom="@dimen/gallery_row_margin"
+        >
+        <online.tatarintsev.testforpassport.data.utils.CustomSquareImage
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height_portrait"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginStart="@dimen/image_margin"
+            android:layout_marginEnd="@dimen/image_margin"
+            android:layout_marginTop="@dimen/image_margin"
+            android:layout_marginBottom="@dimen/image_margin"
+            android:src="@mipmap/ic_launcher"
+            />
+        <online.tatarintsev.testforpassport.data.utils.CustomSquareImage
+            android:layout_width="0dp"
+            android:layout_height="@dimen/image_height_portrait"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginStart="@dimen/image_margin"
+            android:layout_marginEnd="@dimen/image_margin"
+            android:layout_marginTop="@dimen/image_margin"
+            android:layout_marginBottom="@dimen/image_margin"
+            android:src="@mipmap/ic_launcher"
+            />
+    </LinearLayout>
